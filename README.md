@@ -1,7 +1,7 @@
 accept-doc
 ==========
 
-This repository contains reference documentation for the ACCEPT framework's components, including:
+This repository contains the source files (in [reStructuredText format](http://docutils.sourceforge.net/rst.html)) of the reference documentation for the ACCEPT framework's components, including:
 
 * [Portal (Web application)](https://github.com/accept-project/accept-portal)
 * [API](https://github.com/accept-project/accept-api)
