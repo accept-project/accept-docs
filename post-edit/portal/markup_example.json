@@ -1,0 +1,29 @@
+{
+  "MtContactEmail": "", 
+  "MtDate": "2013-08-28T10:28:25.772468", 
+  "MtTool": "tb", 
+  "MtToolId": "accept.statmt.org/demo/translate.php", 
+  "SourceLanguage": "fr", 
+  "TargetLanguage": "en", 
+  "tgt_templates": [
+        {"markup" : "%3Cdiv style=\"display%3Ainline;\"%3E@TARGET@%3C/div%3E%3Cbr /%3E"},
+        {"markup" : "%3Cdiv style=\"display%3Ainline;\"%3E@TARGET@%3C/div%3E%3Cbr /%3E"}
+    ],  
+  "src_sentences": [
+    {
+      "text": "ACCEPT est un projet collaboratif STREP, qui a pour but de développer de nouvelles méthodes et techniques visant à améliorer la traduction automatique (TA) dans le cadre des communautés Internet partageant des informations spécialisées."
+    }, 
+    {
+      "text": "De nos jours, n'importe qui peut, en théorie, créer et partager des informations avec le reste du monde grâce à Internet."
+    }
+  ], 
+  "text_id": "5481644d01d2421d3f38897454b2c2ddd2bddb4ee2aac5b58aa8348da3e7cd0bec2c92315e4eb45b12ae5ea25bed54a273c6533a368814047c47a694dc373726", 
+  "tgt_sentences": [
+    {
+      "text": "Accept is a collaborative project STREP, which aims to develop new methods and techniques aimed to improve the translation automatic (ITA) in the framework of the communities specialised Internet sharing information."
+    }, 
+    {
+      "text": "Nowadays, anyone can, in theory, creating and share information with the rest of the world through the Internet."
+    }
+  ]
+}

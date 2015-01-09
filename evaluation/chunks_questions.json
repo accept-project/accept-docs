@@ -1,0 +1,70 @@
+{
+    "ResponseObject": {
+        "chunkList": [
+            {
+                "Chunk": "Fehler EA390013: Am Ende der etwas.",
+                "Status": 1,
+                "Type": 1,
+                "ChunkInfo": "",
+                "Id": 454
+            }
+        ],
+        "questionList": [
+            {
+                "Name": "fluency",
+                "LanguageQuestions": [
+                    {
+                        "Question": "",
+                        "Action": "Abstimmen",
+                        "Confirmation": "Danke!",
+                        "Answers": [
+                            {
+                                "Name": "unverständlich",
+                                "Value": "1",
+                                "Count": 0,
+                                "Id": 21
+                            },
+                            {
+                                "Name": "zusammenhangslos",
+                                "Value": "2",
+                                "Count": 2,
+                                "Id": 22
+                            },
+                            {
+                                "Name": "nicht muttersprachlich",
+                                "Value": "3",
+                                "Count": 2,
+                                "Id": 23
+                            },
+                            {
+                                "Name": "gut",
+                                "Value": "4",
+                                "Count": 2,
+                                "Id": 24
+                            },
+                            {
+                                "Name": "perfekt",
+                                "Value": "5",
+                                "Count": 3,
+                                "Id": 25
+                            }
+                        ],
+                        "Language": {
+                            "Name": "German",
+                            "Code": "de_de",
+                            "Id": 3
+                        },
+                        "Count": 9,
+                        "Id": 9
+                    }
+                ],
+                "Count": 0,
+                "Id": 8
+            }
+        ]
+    },
+    "ResponseStatus": "OK",
+    "TimeStamp": "/Date(1385729014325)/",
+    "AcceptSessionCode": "",
+    "GlobalSessionId": ""
+}

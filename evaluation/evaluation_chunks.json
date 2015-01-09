@@ -1,0 +1,15 @@
+{
+	"chunkList": [
+	{
+    "chunk":"Alle Resourcen sagen, dass diese Infektion nur auf PCs zutrifft und bieten Lösungen für PCs an.",
+    "chunkInfo":"",
+    "active":1
+    },
+    {
+
+    "chunk":"Die Anzeige in der Dropdown-Liste in allen Dateiinfo Fenstern wurde zur Unterstützung der Windows 8 Touch-Fähigkeit neu gestaltet.",
+    "chunkInfo":"",
+    "active":1
+    }
+]
+}

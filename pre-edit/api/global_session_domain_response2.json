@@ -1,0 +1,97 @@
+    "AcceptSessionCode": "", 
+    "GlobalSessionId": "", 
+    "ResponseObject": [
+        {
+            "ChildSessions": [
+                {
+                    "ClientResults": [
+                        {
+                            "Action": "remove_learn_word", 
+                            "ActionValue": "", 
+                            "FlagContext": "structred", 
+                            "Name": "spelling_flag"
+                        }, 
+                        {
+                            "Action": "remove_ignore_rule", 
+                            "ActionValue": "", 
+                            "FlagContext": "", 
+                            "Name": "use_comma_after_introductory_phrase"
+                        }
+                    ], 
+                    "Context": "...", 
+                    "ProviderResults": [...], 
+                    "Results": [
+                        {
+                            "Action": "learn_word", 
+                            "ActionValue": "", 
+                            "FlagContext": "structred", 
+                            "IndexEnd": 84, 
+                            "IndexStart": 75, 
+                            "Name": "spelling_flag"
+                        }, 
+                        {
+                            "Action": "learn_word", 
+                            "ActionValue": "", 
+                            "FlagContext": "distro", 
+                            "IndexEnd": 300, 
+                            "IndexStart": 294, 
+                            "Name": "spelling_flag"
+                        }, 
+                        {
+                            "Action": "ignore_rule", 
+                            "ActionValue": "", 
+                            "FlagContext": "In this demo we have the possibility to change most, if not all, " +
+    "rules that are used to check the text by selecting an option from the \u201cRule Set\u201d drop-down list",
+                            "IndexEnd": 246, 
+                            "IndexStart": 86, 
+                            "Name": "sentence_too_long"
+                        }, 
+                        {
+                            "Action": "ignore_rule", 
+                            "ActionValue": "", 
+                            "FlagContext": "In", 
+                            "IndexEnd": 88, 
+                            "IndexStart": 86, 
+                            "Name": "use_comma_after_introductory_phrase"
+                        }, 
+                        {
+                            "Action": "display_tooltip", 
+                            "ActionValue": "", 
+                            "FlagContext": "If is", 
+                            "IndexEnd": 5, 
+                            "IndexStart": 0, 
+                            "Name": "wrong_sequence_of_words"
+                        }, 
+                        {
+                            "Action": "accept_suggestion", 
+                            "ActionValue": "Results do", 
+                            "FlagContext": "Results does", 
+                            "IndexEnd": 260, 
+                            "IndexStart": 248, 
+                            "Name": "subject_verb_agreement"
+                        }, 
+                        {
+                            "Action": "accept_suggestion", 
+                            "ActionValue": "test", 
+                            "FlagContext": "testt", 
+                            "IndexEnd": 45, 
+                            "IndexStart": 40, 
+                            "Name": "spelling_flag"
+                        }
+                    ]
+                }
+            ], 
+            "GlobalEndTime": "2013-11-26T11:08:08.000Z", 
+            "GlobalStartTime": "2013-11-26T11:06:25.000Z", 
+            "Input": "If is installed, this demo is used as a testt to explain how the report is structred. In this demo we have the possibility to change most, if not all, rules that are used to check the text by selecting an option from the \u201cRule Set\u201d drop-down list. Results does not vary depending on your Linux distro.\n", 
+            "MetaData": {
+                "GlobalSessionId": "44f35e3a_40c0acb495fe4cc4aa800c6f951c8c9d", 
+                "Language": "en", 
+                "RuleSet": "Preediting_Forum", 
+                "User": "-55642226"
+            }, 
+            "Output": "If it is installed, this demo is used as a test to explain how the report is structured. In this demo we have the possibility to change most, if not all, rules that are used to check the text by selecting an option from the \u201cRule Set\u201d drop-down list. Results do not vary depending on your Linux distro."
+        }
+    ], 
+    "ResponseStatus": "OK", 
+    "TimeStamp": "/Date(1385465000747)/"

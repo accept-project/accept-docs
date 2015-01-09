@@ -1,0 +1,74 @@
+<file original="..." source-language="fr" target-language="en" datatype=""
+      category="" product-name="">
+<header>
+<phase-group>
+    <phase phase-name="mt_baseline" process-name="Machine Translation" tool="tb" 
+    toold-id="accept.statmt.org/demo/translate.php" date="2013-08-28T10:28:25.772Z" 
+    contact-email=""/>
+    <phase phase-name="start_pe" process-name="bilingual" tool="ACCEPT Portal" 
+    toold-id="ACCEPT Post Edit Plug-in 1.0" date="2013-11-27T11:46:45.000Z" 
+    contact-email="..."/>
+    <phase phase-name="r1.1" process-name="bilingual" date="2013-11-27T11:47:16.000Z" 
+    contact-email="...">
+        <note annotates="target" from="user">Yes</note>
+        <note annotates="general" from="user">good baseline translation!</note>
+    </phase>
+    <phase phase-name="t1.1" date="2013-11-27T11:46:45.000Z" contact-email="..."/>
+    <phase phase-name="t1.2" date="2013-11-27T11:47:09.000Z" contact-email="..."/>
+</phase-group>
+<count-group name="1">
+    <count phase-name="r1.1" count-type="x-keys" unit="instance">129</count>
+    <count phase-name="r1.1" count-type="x-delete-keys" unit="instance">5</count>
+    <count phase-name="r1.1" count-type="x-white-keys" unit="instance">5</count>
+    <count phase-name="r1.1" count-type="x-nonwhite-keys" unit="instance">31</count>
+    <count phase-name="r1.1" count-type="x-arrow-keys" unit="instance">61</count>
+    <count phase-name="r1.1" count-type="x-editing-time" unit="x-seconds">55.133</count>
+    <count phase-name="r1.1" count-type="x-typing-time" unit="x-seconds">55.133</count>
+    <count phase-name="t1.1" count-type="x-think-time" unit="x-seconds">16.099</count>
+    <count phase-name="t1.1" count-type="x-start_source_switch" unit="instance">show</count>
+    <count phase-name="t1.1" count-type="x-source_switch" unit="instance">2</count>
+    <count phase-name="t1.1" count-type="x-source_switch" unit="x-seconds">6.662</count>
+    <count phase-name="t1.1" count-type="x-source_switch" unit="x-seconds">5.483</count>
+    <count phase-name="t1.2" count-type="x-think-time" unit="x-seconds">6.651</count>
+</count-group>
+<count-group name="2"/>
+<count-group name="3"/>
+<count-group name="4"/>
+<count-group name="5"/>
+</header>
+<body>
+    <trans-unit id="1">
+        <source>ACCEPT est un projet collaboratif STREP, qui a pour but de développer
+            de nouvelles méthodes et techniques visant à améliorer la traduction
+            automatique (TA) dans le cadre des communautés Internet partageant des
+            informations spécialisées.</source>
+        <target phase-name="r1.1">ACCEPT is a collaborative STREP project, which aims
+            at developing new methods and techniques to improve machine translation
+            (MT) within the framework of Internet communities specialised in sharing
+            information.</target>
+        <alt-trans phase-name="mt_baseline">
+            <target>Accept is a collaborative project STREP, which aims to develop
+                new methods and techniques aimed to improve the translation automatic
+                (ITA) in the framework of the communities specialised Internet
+                sharing information.</target>
+        </alt-trans>
+    </trans-unit>
+    <trans-unit id="2">
+        <source>De nos jours, n'importe qui peut, en théorie, créer et partager des informations avec le reste du monde grâce à Internet.</source>
+        <target phase-name="mt_baseline">Nowadays, anyone can, in theory, creating and share information with the rest of the world through the Internet.</target>
+    </trans-unit>
+    <trans-unit id="3">
+        <source>Et pourtant la barrière linguistique est toujours là: même si l'information est disponible, elle n'est disponible que pour ceux qui parlent la langue dans laquelle elle a été écrite.</source>
+        <target phase-name="mt_baseline">And yet the language barrier is still there: Even if the information is available, it is only available for those who speak the language in which it has been written.</target>
+    </trans-unit>
+    <trans-unit id="4">
+        <source>La mission d'ACCEPT est d'aider les communautés à partager leurs informations de manière plus efficace malgré la barrière linguistique, en améliorant la qualité du contenu communautaire traduit par un outil automatique.</source>
+        <target phase-name="mt_baseline">The mission of ACCEPT is to help the communities to share their information more effectively despite the language barrier, by improving the quality of the content of Community translated by an automatic tool.</target>
+    </trans-unit>
+    <trans-unit id="5">
+        <source>Vous voulez en savoir plus?</source>
+        <target phase-name="mt_baseline">You want to know more?</target>
+    </trans-unit>
+</body>
+</file>
+</xliff>
