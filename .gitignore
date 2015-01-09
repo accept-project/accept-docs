@@ -1,0 +1,7 @@
+Makefile
+make.bat
+.idea/*
+_build/*
+_build-test/*
+_builds/*
+_builds.bak/*
