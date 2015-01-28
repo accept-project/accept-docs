@@ -10,7 +10,7 @@ This repository contains the source files (in [reStructuredText format](http://d
 
 The relationships between these components are shown in the following architecture diagram:
 
-![Architecture](https://raw.githubusercontent.com/jroturier-symc/accept-doc/master/_static/ACCEPT_Architecture.jpg)
+![Architecture](https://raw.githubusercontent.com/accept-project/accept-docs/master/_static/ACCEPT_Architecture.jpg)
 
 Two documentation sets can be built: a full set and a set pertaining solely to the standard pre-edit client. Building is achived using [Sphinx,](http://sphinx-doc.org/index.html) and by default the [ReadTheDocs theme](https://github.com/snide/sphinx_rtd_theme). Both can be installed using Python and  [pip](https://pypi.python.org/pypi/pip):
 
